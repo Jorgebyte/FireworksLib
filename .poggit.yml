@@ -7,4 +7,9 @@ projects:
     path: ""
     model: virion
     type: library
+    libs:
+      - src: SOF3/await-generator/await-generator
+        version: ^3.1.0
+      - src: ACM-PocketMine-MP/await-std/await-std
+        version: ^0.3.0
 ...
